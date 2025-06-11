@@ -116,6 +116,8 @@ class TikTokBot:
         options.add_argument('--disable-infobars')
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
+        options.add_argument("--disable-gpu")              # <-- add
+        options.add_argument("--remote-debugging-port=0")  # <-- add
         options.add_argument('--disable-extensions')
         options.add_argument('--disable-plugins')
         options.add_argument('--disable-web-security')
