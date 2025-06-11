@@ -1,0 +1,20 @@
+# TikTok Bot Requirements
+# Install with: pip install -r requirements.txt
+
+# Core automation libraries
+undetected-chromedriver>=3.5.0
+selenium>=4.15.0
+
+# Console output and colors
+colorama>=0.4.6
+
+# Standard library equivalents (usually included with Python)
+# pathlib - Built into Python 3.4+
+# json - Built into Python
+# time - Built into Python  
+# random - Built into Python
+# sys - Built into Python
+
+# Optional: For enhanced functionality
+# requests>=2.31.0  # If you need HTTP requests
+# python-dotenv>=1.0.0  # If you want to use environment variables
